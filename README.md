@@ -1,2 +1,2 @@
 # dashboard
-An exercise in working with grid in css
+An exercise in working with CSS grid.
