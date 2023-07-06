@@ -260,11 +260,11 @@ body {
 }
 
 .card1 .card-image {
-  background-image: url("/img/index/sketch-a-roo.png");
+  background-image: url("../img/index/sketch-a-roo.png");
 }
 
 .card2 .card-image {
-  background-image: url("/img/index/Ropapsi.png");
+  background-image: url("../img/index/Ropapsi.png");
 }
 
 .card1 img,
