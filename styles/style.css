@@ -214,7 +214,7 @@ body {
 .main {
   padding: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
   background-color: #c3c5ca;
@@ -247,7 +247,9 @@ body {
 }
 
 .card1,
-.card2 {
+.card2,
+.card3,
+.card4 {
   display: grid;
   grid-template-rows: 5fr 0.5fr 1fr;
   border-radius: 5px;
@@ -267,13 +269,18 @@ body {
   background-image: url("../img/index/Ropapsi.png");
 }
 
-.card1 img,
-.card2 img {
-  width: 100%;
-  border-radius: 5px 5px 0px 0px;
+.card3 .card-image {
+  background-image: url("../img/index/calculator.jpg");
+  background-position: 0% 50%;
 }
 
-.card4 {
+.card4 .card-image {
+  background-image: url("../img/index/macho-screenshot.png");
+}
+
+
+
+.card5 {
   grid-column: 1/5;
   grid-row: 2/4;
 }
