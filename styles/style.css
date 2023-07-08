@@ -193,6 +193,7 @@ body {
   transform: translateX(-100%);
   transition: 1250ms ease;
   border-radius: 0px 10px 10px 0px;
+  border: 1px solid black;
 }
 
 .sidebar-up {
