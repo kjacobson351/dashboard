@@ -175,10 +175,12 @@ body {
 .header h3 {
   font-size: 1.5rem;
   padding-left: 1rem;
+  font-weight: 5;
 }
 
 .header button {
   margin-left: 10px;
+  width: 40px;
 }
 
 .sidebar {
