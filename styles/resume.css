@@ -429,11 +429,18 @@ border-top: none;
 }
 
 #picture{
-    grid-column: 5/8;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    grid-column: 6/8;
     grid-row: 3/11;
     border-top: var(--solid);
     border-right: var(--solid);
     border-bottom: var(--solid);
+}
+
+#picture img{
+width: 13rem;
 }
 
 .first-page-second-section {
@@ -673,8 +680,18 @@ border-right: var(--dotted);
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   #pr{
     font-size: 6.5px;
   }
+  #picture img{
+    width: 11rem;
+    }
+
 }
+
+@media (max-width: 390px) {
+  #picture img{
+    width: 8rem;
+    }
+  }
