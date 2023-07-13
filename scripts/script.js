@@ -33,13 +33,13 @@ const main1 = document.querySelector(".main1")
 const first1 = document.querySelector(".first-page-first-section")
 const first2 = document.querySelector(".first-page-second-section");
 const second1 = document.querySelector(".second-page-first-section");
-const main2 = document.querySelector(".main2");
+const main2Wrapper = document.querySelector(".main2-wrapper");
 const slider = document.querySelector("#slider");
 const toggleResumeButton = document.querySelector("#toggle-resume-btn");
 slider.addEventListener("input", changeValue);
 function changeValue(){
     const sliderValue = slider.value;
-    main2.style.transform = `translateX(${sliderValue}%)`;
+    main2Wrapper.style.transform = `translateX(${sliderValue}%)`;
     if (sliderValue == 0) {
         main1.style.display = "none"
         toggleResumeButton.style.display = "none";   
