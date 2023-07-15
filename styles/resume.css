@@ -816,8 +816,9 @@ body {
 }
 
 .education {
+  margin-top: 31px;
   grid-row: 2/3;
-  border: 1px solid black;
+
 }
 
 .skills {
@@ -849,6 +850,29 @@ body {
   grid-row: 2/3;
 }
 
+.education {
+  display: grid;
+  font-size: 1.5rem;
+  font-weight: 200;
+  grid-template-rows: 40px repeat(3, 1fr);
+}
+
+#education-title{
+  grid-row: 1/2;
+}
+
+.education-section1 {
+  grid-row: 2/3;
+}
+
+.education-section2{
+  grid-row: 3/4;
+}
+
+.education-section3{
+  grid-row: 4/5;
+}
+
 .section-title {
   grid-column: 1/2;
   border-bottom: 1px solid black;
@@ -875,6 +899,14 @@ margin-bottom: 5px;
 
 .job-description{
   margin-bottom: 20px;
+}
+
+.job-description li {
+  margin-bottom: 10px;
+}
+
+.job-description span{
+  font-weight: 400 !important;
 }
 
 
