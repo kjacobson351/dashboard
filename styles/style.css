@@ -330,7 +330,8 @@ color: #f8fafc;
 .card2,
 .card3,
 .card4,
-.card5 {
+.card5,
+.card6 {
   display: grid;
   grid-template-rows: 5fr 0.5fr 1fr;
   border-radius: 5px;
@@ -363,11 +364,7 @@ color: #f8fafc;
   background-image: url("../img/index/commits.png");
 }
 
-#card5 .icon {
-  font-size: 20rem;
-  position: relative;
-  top: 10%;
-  left: 25%;
-  color: white;
+#card6 .card-image {
+  background-image: url("../img/index/race-o-matic.jpg");
 }
 
